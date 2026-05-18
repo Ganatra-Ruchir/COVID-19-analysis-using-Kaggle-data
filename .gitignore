@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pyt
+
+# Virtual environments
+.venv/
+venv/
+env/
+venv.bak/
+
+# Streamlit
+.streamlit/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Package dist
+build/
+dist/
+*.egg-info/
