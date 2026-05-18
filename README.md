@@ -8,6 +8,45 @@ This dashboard was developed as a polished demo analytics product for a fictiona
 
 The dashboard is designed for GitHub publication and stakeholder review, with a clean repository structure, documentation, and governance files that make it production-ready.
 
+## Demo
+
+Live App: [Streamlit link]
+
+## Screenshots
+
+- Overview page
+- Country analysis page
+
+## Dataset
+
+Source: [Kaggle dataset link]
+
+## Tech Stack
+
+- Python
+- Pandas
+- Streamlit
+- Plotly
+
+## Data Processing
+
+- Renamed inconsistent columns
+- Parsed dates
+- Filled/handled missing values
+- Standardized country-level schema
+
+## Insights
+
+- Global case trends over time
+- Top affected countries
+- Country-wise comparison of confirmed, deaths, recovered
+
+## Future Improvements
+
+- Add vaccination analysis
+- Add mortality/recovery rate KPIs
+- Add download/export options
+
 ## Key features
 
 - Global overview with confirmed cases, deaths, recovered totals, and country count
