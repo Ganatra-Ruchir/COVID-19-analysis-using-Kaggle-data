@@ -1,6 +1,6 @@
 ﻿# COVID-19 Streamlit Dashboard
 
-A portfolio analytics dashboard built with Python, Pandas, Streamlit, and Plotly to explore COVID-19 trends, compare countries, and visualize key metrics. [page:2]
+A portfolio analytics dashboard built with Python, Pandas, Streamlit, and Plotly to explore COVID‑19 trends, compare countries, and visualize key metrics.
 
 ## Demo
 
