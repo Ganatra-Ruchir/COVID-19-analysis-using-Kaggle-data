@@ -1,11 +1,18 @@
-# COVID-19 Streamlit Dashboard
+﻿# COVID-19 Streamlit Dashboard
 
-A portfolio analytics dashboard built with Python, Pandas, Streamlit, and Plotly to explore COVID-19 trends, compare countries, and visualize key metrics.
+A portfolio analytics dashboard built with Python, Pandas, Streamlit, and Plotly to explore COVID-19 trends, compare countries, and visualize key metrics. [page:2]
 
 ## Demo
 
-Live App: [http://127.0.0.1:8501](http://127.0.0.1:8501)  
-> Run locally with `streamlit run app.py`.
+This project is currently intended to run locally.
+
+Run the app with:
+
+```bash
+streamlit run app.py
+```
+
+If you deploy it later on Streamlit Community Cloud, replace this section with your public app link.
 
 ## Screenshots
 
@@ -43,7 +50,7 @@ Source: [Kaggle COVID-19 Dataset](https://www.kaggle.com/datasets/imdevskp/coron
 - Add mortality and recovery rate KPIs
 - Add download/export options
 
-## Key features
+## Key Features
 
 - Global overview with confirmed cases, deaths, recovered totals, and country count
 - Time series visualization for confirmed cases and top-10 affected countries
@@ -51,9 +58,9 @@ Source: [Kaggle COVID-19 Dataset](https://www.kaggle.com/datasets/imdevskp/coron
 - Robust CSV preprocessing that handles inconsistent source column names
 - Streamlit multi-page layout for easy navigation
 
-## Repository structure
+## Repository Structure
 
-```
+```text
 covid-streamlit-dashboard/
 ├── app.py
 ├── requirements.txt
@@ -77,7 +84,12 @@ covid-streamlit-dashboard/
 
 ```bash
 python -m venv .venv
-.\.venv\Scripts\activate
+```
+
+Windows:
+
+```bash
+.venv\Scripts\activate
 ```
 
 2. Install dependencies
@@ -92,7 +104,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Data schema
+## Data Schema
 
 The dashboard expects a dataset with the following normalized fields:
 
@@ -106,7 +118,7 @@ The dashboard expects a dataset with the following normalized fields:
 
 The loader also supports source columns such as `total_cases`, `total_deaths`, `recovered_cases`, `active_cases`, and `total_tests`.
 
-## Contribution guidelines
+## Contribution Guidelines
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for repository standards, branching guidance, and code review expectations.
 
