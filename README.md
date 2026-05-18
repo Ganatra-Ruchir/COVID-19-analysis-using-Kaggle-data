@@ -61,7 +61,7 @@ Source: [Kaggle COVID-19 Dataset](https://www.kaggle.com/datasets/imdevskp/coron
 ## Repository Structure
 
 ```text
-covid-streamlit-dashboard/
+covid-19-analysis-using-Kaggle-data/
 ├── app.py
 ├── requirements.txt
 ├── README.md
@@ -73,9 +73,12 @@ covid-streamlit-dashboard/
 ├── src/
 │   ├── data.py
 │   └── charts.py
-└── pages/
-    ├── 1_Overview.py
-    └── 2_Country_Analysis.py
+├── pages/
+│   ├── 1_Overview.py
+│   └── 2_Country_Analysis.py
+└── screenshots/
+    ├── overview.png
+    └── country-analysis.png
 ```
 
 ## Installation
