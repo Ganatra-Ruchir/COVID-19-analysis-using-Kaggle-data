@@ -1,25 +1,21 @@
-# COVID Streamlit Dashboard
+# COVID-19 Streamlit Dashboard
 
-A professional Streamlit dashboard for COVID-19 analytics, built to present pandemic recovery trends, global totals, and country-level insights.
-
-## Project background
-
-This dashboard was developed as a polished demo analytics product for a fictional pandemic response team. It simulates a real-world data science delivery pipeline: ingesting a cleaned CSV dataset, standardizing schema fields, and displaying interactive visualizations for global and country-specific COVID-19 trends.
-
-The dashboard is designed for GitHub publication and stakeholder review, with a clean repository structure, documentation, and governance files that make it production-ready.
+A portfolio analytics dashboard built with Python, Pandas, Streamlit, and Plotly to explore COVID-19 trends, compare countries, and visualize key metrics.
 
 ## Demo
 
-Live App: [Streamlit link]
+Live App: [http://127.0.0.1:8501](http://127.0.0.1:8501)  
+> Run locally with `streamlit run app.py`.
 
 ## Screenshots
 
-- Overview page
-- Country analysis page
+![Overview page](screenshots/overview.png)
+
+![Country analysis page](screenshots/country-analysis.png)
 
 ## Dataset
 
-Source: [Kaggle dataset link]
+Source: [Kaggle COVID-19 Dataset](https://www.kaggle.com/datasets/imdevskp/corona-virus-report)
 
 ## Tech Stack
 
@@ -32,19 +28,19 @@ Source: [Kaggle dataset link]
 
 - Renamed inconsistent columns
 - Parsed dates
-- Filled/handled missing values
+- Filled and handled missing values
 - Standardized country-level schema
 
 ## Insights
 
-- Global case trends over time
-- Top affected countries
-- Country-wise comparison of confirmed, deaths, recovered
+- Global trends in confirmed cases, deaths, and recoveries
+- Top affected countries by cumulative cases
+- Country-level comparison of confirmed, deaths, and recovered trends
 
 ## Future Improvements
 
 - Add vaccination analysis
-- Add mortality/recovery rate KPIs
+- Add mortality and recovery rate KPIs
 - Add download/export options
 
 ## Key features
